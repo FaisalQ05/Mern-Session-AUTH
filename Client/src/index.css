@@ -1,0 +1,65 @@
+html {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+.app {
+    background-color: rgb(23, 20, 20);
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.loginForm input {
+    outline: 0px;
+    padding: 0.3em 0.7em;
+    font-size: 1.2rem;
+    border-radius: 0.6em;
+}
+
+.loginForm button {
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.1em 0.4em;
+    font-weight: bolder;
+    border-radius: 0.3em;
+    transition: all 0.2s;
+    border: 0px;
+}
+
+.loginForm button:hover {
+    background-color: rgb(35, 45, 234);
+    color: white;
+}
+
+.loginForm p a {
+    color: rgb(196, 193, 220);
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+}
